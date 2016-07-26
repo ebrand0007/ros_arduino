@@ -38,7 +38,7 @@ target_link_libraries(raw_imu_bridge_node raw_imu_bridge ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############
-install(TARGETS raw_imu_bridge
+install(TARGETS raw_imu_bridge raw_imu_bridge_node
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
